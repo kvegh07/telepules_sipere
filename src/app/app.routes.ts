@@ -1,3 +1,13 @@
+/*
+*File: city.components.ts
+*Author: Firstname Lastname
+*Copyright: 2023, Kossuth Lajos
+*Group: Szoft II/N
+*Date: 2023-03-25
+*Github: https://github.com/LajosKossuth
+*Licence: GNU GPL
+*/
+
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';

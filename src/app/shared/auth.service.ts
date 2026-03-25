@@ -1,3 +1,14 @@
+/*
+*File: auth.service.ts
+*Author: Firstname Lastname
+*Copyright: 2023, Kossuth Lajos
+*Group: Szoft II/N
+*Date: 2023-03-25
+*Github: https://github.com/LajosKossuth
+*Licence: GNU GPL
+*/
+
+
 import { inject, Injectable, signal } from '@angular/core';
 import { environment } from '../../environments/environment.development';
 import { HttpClient } from '@angular/common/http';

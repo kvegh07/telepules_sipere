@@ -1,1 +1,26 @@
-<p>city works!</p>
+<p>Települések</p>
+
+
+
+<table class="table table-striped table-info">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Név</th>
+            <th>Státusz</th>
+            <th>Népesség</th>
+            <th>Terület</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for ( city of cities ; track city.id ) {
+            <tr>
+                <td>{{city.id}}</td>
+                <td>{{city.name}}</td>
+                <td>{{city.status}}</td>
+                <td>{{city.population}}</td>
+                <td>{{city.location}}</td>
+            </tr>
+        }
+    </tbody>
+</table>
